@@ -1,0 +1,104 @@
+@charset "utf-8";
+/*CSS Document*/
+
+/*++++++++  Media Query  ++++++++*/
+/*------- Mobile(start)  -----*/
+@media screen and (max-width: 767px) {
+	/*-------------------------- Main _ Visual ---------------------------*/
+	.main_viusal {width: 100%;}	
+	.wraper {width: 100%; height:100%;}
+	.main_banner {width: 100%; height: 150px; position: relative; background:url("../images/class_banner.png"); margin-top:70px; background-size: cover; background-position: center center;}
+	.main_banner .title {position: absolute; top:50%; left: 50%; transform: translate(-50%,-50%); }
+	.main_banner .title .title_iner {color:#fff; font-size: 20px; font-weight: bold;font-family: 'NotoSansKR-Medium';}
+	.main_banner .title .title1_en {color:#fff; font-size: 20px;}
+
+	/*비자소개*/
+	.intro_box {padding: 20px 0 ;}
+	.viza_box {margin-bottom: 20px;}
+	#check_icon {margin-right: 10px; vertical-align:middle;}
+	#check_icon img {width: 25px;}
+	#bolder {color:red;}
+	#red-bolder {color:red;}
+	.viza_title {font-size: 16px; font-weight:900; margin-bottom: 10px;}
+	.viza_title_bold {color:red; font-size: 15px; font-weight: 500; margin-bottom: 10px;}
+	.viza_title_bold2 {color:#000; font-size: 15px; font-weight: 500; margin-bottom: 10px;}
+	.viza_title_en {font-size: 15px;}
+	.list_arrow {display:inline-block; width: 6px; height: 6px; background:#000; border-radius: 50%; margin-right: 5px; vertical-align:middle;}
+
+	/*scroll_btn*/
+	#scroll_btn {position: fixed; bottom: 5px; right: 5px;}
+	#scroll_btn img {width: 30px;}
+	#tp_br {display: none;}
+	
+}
+/*------  Mobile(end)  ----*/
+
+/*+++++++++++++++++++++++++++++++*/
+/*-------   Tablet(start)   -----*/
+@media screen and (min-width: 768px) and (max-width: 1024px) { 
+
+	/*-------------------------- Main _ Visual ---------------------------*/
+	.main_viusal {width: 100%;}	
+	.wraper {width: 100%; height:100%;}
+	.main_banner {width: 100%; height: 200px; position: relative; background:url("../images/class_banner.png"); margin-top:70px; background-size: cover; background-position: center center;}
+	.main_banner .title {position: absolute; top:50%; left: 50%; transform: translate(-50%,-50%); }
+	.main_banner .title .title_iner {color:#fff; font-size: 24px; font-weight: bold;font-family: 'NotoSansKR-Medium';}
+	.main_banner .title .title1_en {color:#fff; font-size: 20px;}
+
+	/*비자소개*/
+	.intro_box {padding: 40px 0 ;}
+	.viza_box {margin-bottom: 30px;}
+	#check_icon {margin-right: 10px; vertical-align:middle;}
+	#check_icon img {width: 24px;}
+	#bolder {color:red;}
+	#red-bolder {color:red;}
+	.viza_title {font-size: 18px; font-weight:900; margin-bottom: 10px;}
+	.viza_title_bold {color:red; font-size: 16px; font-weight: 500; margin-bottom: 10px;}
+	.viza_title_bold2 {color:#000; font-size: 16px; font-weight: 500; margin-bottom: 10px;}
+	.viza_title_en {font-size: 15px;}
+	.list_arrow {display:inline-block; width: 6px; height: 6px; background:#000; border-radius: 50%; margin-right: 5px; vertical-align:middle;}
+    
+	/*scroll_btn*/
+	#scroll_btn {position: fixed; bottom: 5px; right: 5px;}
+	#scroll_btn img {width: 35px;}
+	#m_br {display: none;}
+	.introduce_m {display: none;}
+	.title_en2m {display: none;}
+}
+/*---------   Tablet(end)   ----*/
+
+/*++++++++++++++++++++++++++++++++*/
+/*-------   Desktop(start)   -----*/
+@media screen and (min-width: 1025px) {
+	
+
+	.inners_wrap {width: 100%; max-width: 1410px; margin: 0 auto; padding: 0 70px;}
+	/*-------------------------- Main _ Visual ---------------------------*/
+	.main_viusal {width: 100%;}
+	.wraper {width: 100%; height:100%;}
+	.main_banner {width: 100%; height: 300px; position: relative; background:url("../images/class_banner.png"); margin-top:100px; background-size: cover; background-position: center center;}
+	.main_banner .title {position: absolute; top:50%; left: 50%; transform: translate(-50%,-50%); }
+	.main_banner .title .title_iner {color:#fff; font-size: 34px; font-weight: bold;font-family: 'NotoSansKR-Medium';}
+	.main_banner .title .title1_en {color:#fff; font-size: 20px;}
+	
+	/*비자소개*/
+	.intro_box {padding: 80px 0 ;}
+	.viza_box {margin-bottom: 50px;}
+	#check_icon {margin-right: 15px; vertical-align:middle;}
+	#check_icon img {width: 36px;}
+	#bolder {color:red;}
+	#red-bolder {color:red;}
+	.viza_title {font-size: 28px; font-weight:900; margin-bottom: 10px;}
+	.viza_title_bold {color:red; font-size: 20px; font-weight: 500; margin-bottom: 10px;}
+	.viza_title_bold2 {color:#000; font-size: 20px; font-weight: 500; margin-bottom: 10px;}
+	.viza_title_en {font-size: 18px;}
+	.list_arrow {display:inline-block; width: 8px; height: 8px; background:#000; border-radius: 50%; margin-right: 15px; vertical-align:middle;}
+	
+	/*scroll_btn*/
+	#scroll_btn {position: fixed; bottom: 5px; right: 5px;}
+	#scroll_btn img {width: 40px;}
+	#m_br {display: none;}
+	.introduce_m {display: none;}
+	.title_en2m {display: none;}
+}
+/*--------   Desktop(end)   -----*/

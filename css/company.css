@@ -1,0 +1,173 @@
+@charset "utf-8";
+/*CSS Document*/
+
+/*++++++++  Media Query  ++++++++*/
+/*------- Mobile(start)  -----*/
+@media screen and (max-width: 767px) {
+	/*-------------------------- Main _ Visual ---------------------------*/
+	.main_viusal {width: 100%;}	
+	.wraper {width: 100%; height:100%;}
+	.main_banner {width: 100%; height: 150px; position: relative; background:url("../images/company_banner.png"); margin-top:70px; background-size: cover; background-position: center center;}
+	.main_banner .title {position: absolute; top:50%; left: 50%; transform: translate(-50%,-50%); }
+	.main_banner .title .title_iner {color:#fff; font-size: 20px; font-weight: bold;font-family: 'NotoSansKR-Medium';}
+	.main_banner .title .title1_en {color:#fff; font-size: 20px;}
+
+	/*±³À°¾È³»*/
+	.tablet_br {display:none;}
+	.pc_br {display:none;}
+	.center_education {padding: 20px 0;}
+	.company_title {text-align:Center;}
+	.company_title #gvec_icon {width: 145px;}
+	.company {font-size: 16px; padding:10px 0; font-weight: 800; color:#3e64af;}
+	.company_explan {font-size: 14px;}
+	.lines {background:#000; width:1px; height: 30px; margin: 20px auto;}
+	.education_box img {width:100%;}
+	.education_box1 {clear:both;overflow:hidden; margin-bottom: 10px;}
+	.education_box2 {clear:both;overflow:hidden; margin-bottom: 10px;}
+	.education_box3 {clear:both;overflow:hidden; margin-bottom: 20px;}
+	.education_img { background:#ccc;}
+	.education_explan {padding: 20px 0; }
+	.education_explan_title2 {line-height: 1.7; font-size: 14px;}
+	.education_explan_title {font-weight: 700; font-size: 16px; padding-bottom: 5px;}
+	.center_box {padding-bottom: 20px;}
+	.center_title {font-size: 16px; font-weight: 900; text-align: center;}
+	.center_line {background:#000; width: 100px; height: 1px; margin: 15px auto; }
+	.center_box .center_img {margin: 20px 0;}
+	.center_box .center_img img {width:100%; display:block; margin-bottom: 10px;}
+	.center_map {font-size: 14px; font-weight: 900;}
+	.center_map #map_icon img {width: 19px; margin-right: 5px; vertical-align:bottom;}
+	.centermap_explan {margin-top: 15px; line-height: 1.7; font-size: 14px;}
+	.map_box {padding-bottom: 30px;}
+	.pc_map {display:none;}
+	.moblie_map {width:100%;}
+	.map_title {font-size: 16px; font-weight: 900; text-align: center;}
+	.license_title {font-size: 16px; font-weight: 900; text-align: center;}
+	.license_img {width: 100%; margin: 0 auto; margin-top: 22px;}
+	.license_img img {width: 100%;}
+	.license_explan {padding: 15px; background:#1f4f77;  border-radius: 50px;text-align:Center;  width: 90%; margin: 5px auto 15px auto; color:#fff; font-size: 14px;}
+
+	/*scroll_btn*/
+	#scroll_btn {position: fixed; bottom: 5px; right: 5px;}
+	#scroll_btn img {width: 30px;}
+	#tp_br {display: none;}
+	
+}
+/*------  Mobile(end)  ----*/
+
+/*+++++++++++++++++++++++++++++++*/
+/*-------   Tablet(start)   -----*/
+@media screen and (min-width: 768px) and (max-width: 1024px) { 
+
+	/*-------------------------- Main _ Visual ---------------------------*/
+	.main_viusal {width: 100%;}	
+	.wraper {width: 100%; height:100%;}
+	.main_banner {width: 100%; height: 200px; position: relative; background:url("../images/company_banner.png"); margin-top:70px; background-size: cover; background-position: center center;}
+	.main_banner .title {position: absolute; top:50%; left: 50%; transform: translate(-50%,-50%); }
+	.main_banner .title .title_iner {color:#fff; font-size: 24px; font-weight: bold;font-family: 'NotoSansKR-Medium';}
+	.main_banner .title .title1_en {color:#fff; font-size: 20px;}
+
+	/*±³À°¾È³»*/
+	.moblie_br {display:none;}
+	.center_education {padding: 40px 0;}
+	.company_title {text-align:Center;}
+	.company_title #gvec_icon {width: 180px;}
+	.company {font-size: 18px; padding:15px 0; font-weight: 800; color:#3e64af;}
+	.company_explan {font-size: 16px;}
+	.lines {background:#000; width:1px; height: 40px; margin: 30px auto;}
+	.education_box img {width:100%;}
+	.education_box1 {clear:both;overflow:hidden; margin-bottom: 20px;}
+	.education_box2 {clear:both;overflow:hidden; margin-bottom: 20px;}
+	.education_box3 {clear:both;overflow:hidden; margin-bottom: 40px;}
+	.education_img { background:#ccc;}
+	.education_explan {border: 1px solid #ddd; padding: 30px; box-sizing:border-box;}
+	.education_explan_title2 {line-height: 1.7; }
+	.education_explan_title {font-weight: 700; font-size: 18px; padding-bottom: 5px;}
+	.center_box {padding-bottom: 40px;}
+	.center_title {font-size: 18px; font-weight: 900; text-align: center;}
+	.center_line {background:#000; width: 100px; height: 1px; margin: 20px auto; }
+	.center_box .center_img {clear:both; overflow: hidden; margin: 30px 0 20px 0;}
+	.center_box .center_img img {float:left; width:32.3%; margin-right: 1.5%; margin-bottom: 1.5%; display:block;}
+	.center_box .center_img .odd {margin-right: 0;}
+	.center_map {font-size: 16px; font-weight: 900;}
+	.center_map #map_icon img {width: 22px; margin-right: 5px; vertical-align:bottom;}
+	.centermap_explan {margin-top: 15px; line-height: 1.7;}
+	.map_box {padding-bottom: 80px;}
+	.moblie_map {display:none;}
+	.pc_map {width:100%;}
+	.map_title {font-size: 18px; font-weight: 900; text-align: center;}
+	.license_title {font-size: 18px; font-weight: 900; text-align: center;}
+	.license_img {clear:both;overflow:hidden; width: 100%; margin: 0 auto; margin-top: 30px;}
+	.license_img img {width: 100%;}
+	.license_img1 {float: left; width: 46%; margin-right: 8%;}
+	.license_img2 {float: left; width: 46%;}
+	.license_explan {padding: 20px; background:#1f4f77;  border-radius: 50px;text-align:Center;  width: 90%; margin: 15px auto 0 auto; color:#fff;}
+
+    
+	/*scroll_btn*/
+	#scroll_btn {position: fixed; bottom: 5px; right: 5px;}
+	#scroll_btn img {width: 35px;}
+	#m_br {display: none;}
+	.introduce_m {display: none;}
+	.title_en2m {display: none;}
+}
+/*---------   Tablet(end)   ----*/
+
+/*++++++++++++++++++++++++++++++++*/
+/*-------   Desktop(start)   -----*/
+@media screen and (min-width: 1025px) {
+	
+
+	.inners_wrap {width: 100%; max-width: 1410px; margin: 0 auto; padding: 0 70px;}
+	/*-------------------------- Main _ Visual ---------------------------*/
+	.main_viusal {width: 100%;}
+	.wraper {width: 100%; height:100%;}
+	.main_banner {width: 100%; height: 300px; position: relative; background:url("../images/company_banner.png"); margin-top:100px; background-size: cover; background-position: center center;}
+	.main_banner .title {position: absolute; top:50%; left: 50%; transform: translate(-50%,-50%); }
+	.main_banner .title .title_iner {color:#fff; font-size: 34px; font-weight: bold;font-family: 'NotoSansKR-Medium';}
+	.main_banner .title .title1_en {color:#fff; font-size: 20px;}
+	
+	/*±³À°¾È³»*/
+	.moblie_br {display:none;}
+	.tablet_br {display:none;}
+	.center_education {padding: 80px 0;}
+	.company_title {text-align:Center;}
+	.company_title #gvec_icon {width: 265px;}
+	.company {font-size: 20px; padding:15px 0; font-weight: 800; color:#3e64af;}
+	.company_explan {font-size: 18px;}
+	.lines {background:#000; width:1px; height: 60px; margin: 50px auto;}
+	.education_box img {width:100%;}
+	.education_box1 {clear:both;overflow:hidden; margin-bottom: 20px;}
+	.education_box2 {clear:both;overflow:hidden; margin-bottom: 20px;}
+	.education_box3 {clear:both;overflow:hidden; margin-bottom: 80px;}
+	.education_img {float:left; width: 30%; height: 250px; background:#ccc;}
+	.education_explan {float:left; width: 70%; height: 250px; border: 1px solid #ddd; padding: 38px; box-sizing:border-box;}
+	.education_explan_title2 {line-height: 1.7;}
+	.education_explan_title {font-weight: 700; font-size: 18px; padding-bottom: 5px;}
+	.center_box {padding-bottom: 80px;}
+	.center_title {font-size: 20px; font-weight: 900; text-align: center;}
+	.center_line {background:#000; width: 100px; height: 1px; margin: 20px auto; }
+	.center_box .center_img {clear:both; overflow: hidden; margin: 30px 0;}
+	.center_box .center_img img {float:left; width:32.3%; margin-right: 1.5%; margin-bottom: 1.5%; display:block;}
+	.center_box .center_img .odd {margin-right: 0;}
+	.center_map {font-size: 16px; font-weight: 900;}
+	.center_map #map_icon img {width: 30px; margin-right: 5px; vertical-align:bottom;}
+	.centermap_explan {margin-top: 15px; line-height: 1.7;}
+	.map_box {padding-bottom: 80px;}
+	.moblie_map {display:none;}
+	.pc_map {width:100%;}
+	.map_title {font-size: 20px; font-weight: 900; text-align: center;}
+	.license_title {font-size: 20px; font-weight: 900; text-align: center;}
+	.license_img {clear:both;overflow:hidden; width: 60%; margin: 0 auto; margin-top: 30px;}
+	.license_img img {width: 100%;}
+	.license_img1 {float: left; width: 46%; margin-right: 8%;}
+	.license_img2 {float: left; width: 46%;}
+	.license_explan {padding: 20px; background:#1f4f77;  border-radius: 50px;text-align:Center;  width: 90%; margin: 15px auto 0 auto; color:#fff;}
+
+	/*scroll_btn*/
+	#scroll_btn {position: fixed; bottom: 5px; right: 5px;}
+	#scroll_btn img {width: 40px;}
+	#m_br {display: none;}
+	.introduce_m {display: none;}
+	.title_en2m {display: none;}
+}
+/*--------   Desktop(end)   -----*/

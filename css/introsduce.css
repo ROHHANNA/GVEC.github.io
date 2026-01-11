@@ -1,0 +1,440 @@
+@charset "utf-8";
+/*CSS Document*/
+
+/*++++++++  Media Query  ++++++++*/
+/*------- Mobile(start)  -----*/
+@media screen and (max-width: 767px) {
+	/*-------------------------- Main _ Visual ---------------------------*/
+	.main_viusal {width: 100%;}	
+	.wraper {width: 100%; height:100%;}
+	.main_banner {width: 100%; height: 150px; position: relative; background:url("../images/introduce_banner.png"); margin-top:70px; background-size: cover; background-position: center center;}
+	.main_banner .title {position: absolute; top:50%; left: 50%; transform: translate(-50%,-50%); }
+	.main_banner .title .title_iner {color:#fff; font-size: 20px; font-weight: bold;font-family: 'NotoSansKR-Medium';}
+	.main_banner .title .title1_en {color:#fff; font-size: 20px;}
+
+
+	/*click*/
+	.click1img img {width:100%;}
+	.click2img img {width:100%;}
+	.click3img img {width:100%;}
+	.click {position: relative; width: 100%; border-bottom: 1px solid #ddd;}
+	.click2 {float: left; width: 50%; padding: 10px 0;color: #fff; background: #36528a; border-left: 1px solid #ddd; border-right: 1px solid #ddd; text-align: center; font-size: 16px;}
+	.click3 {float: left; width: 50%; padding: 10px 0;border-left: 1px solid #ddd;  text-align: center; font-size: 16px;background:#fff;}
+
+	/*�������簳��*/
+	.click1img {display:none;font-size:18px;}
+	.project1 {width:100%; clear:both; overflow:hidden;}
+	.project_title {padding: 20px 0; font-size: 16px; font-weight: bold;font-family: 'NotoSansKR-Medium';}
+	#check_icon {padding-right:5px;}
+	#check_icon img {width:25px;}
+	.project_title_in {width: 100%;}
+	#project_core {font-size: 15px; margin-bottom:10px;}
+	#project_core > span {color:#b81314; font-weight: bold;font-family: 'NotoSansKR-Medium';}
+	#project_core1 {display: inline-block; font-weight: bold;font-family: 'NotoSansKR-Medium'; font-size: 16px; background-color:#ffff00; padding: 5px 10px;}
+	#project_core1_title {margin-top:5px; font-size:13px;}
+	.project1 .project_map {width:100%; margin-top:20px; text-align:center;}
+	.project1 .project_map img {width:100%;}
+	#project_map2 {width:100%; margin-bottom:20px;}
+	.project_title2 {padding: 20px 0; font-size: 16px; font-weight: bold;font-family: 'NotoSansKR-Medium';}
+	.pc_br {display:none;}
+
+	/*��Ʈ��*/
+	.click2img { font-size:15px; margin-bottom:20px;}
+	.vetinam_project_title {padding: 20px 0; font-size: 16px; font-weight: bold;font-family: 'NotoSansKR-Medium';}
+	.vetinam_project_box1 {clear:both; overflow:hidden; margin-top:20px;}
+	.vetinam_project_box1 .vetinam_project_box1_introduce {font-size:15px;}
+	.reiwa_title {font-weight:900; font-size: 15px;}
+	.reiwa_title span {margin-right:10px;}
+	.name { ont-size: 15px; text-align:Center; margin-top:10px;}
+	.name span {margin-right:10px;}
+	#reiwa_logo {vertical-align:middle; width:70px;}
+	#normal {font-weight:500;}
+	.vetinam_project_box1 .vetinam_project_box1_img {text-align:Center;}
+	#reiwa_img {width:60%;}
+	.pc_sign {display:none;}
+
+	.vetinam_project_title2 {padding: 40px 0 20px 0; font-size: 16px; font-weight: bold;font-family: 'NotoSansKR-Medium';}
+	.people {font-size:15px; margin-bottom:20px;}
+	#red_bolder {color:red;}
+	.head_office {color:#767676;}
+	.office {color:#767676;}
+	.office_img {overflow:hidden; clear:both; padding: 20px 0;}
+	.office_img img {margin-bottom: 1%;}
+	.office_img img:nth-child(3n) {margin-bottom: 0;}
+	.office_name {font-size:15px; text-align:Center; font-weight:500;}
+	.education_img {overflow:hidden; clear:both; padding: 20px 0;}
+	.education_img img {margin-bottom: 1%;}
+	.education_img img:nth-child(3n) {margin-bottom: 0;}
+	.education_name {font-size:15px; text-align:Center; font-weight:500; margin-bottom:20px;}
+	#round_list {display: inline-block; width:6px; height:6px; background:#000; border-radius:50%; margin-right:5px; vertical-align:middle;}
+	.e7 {font-size:15px;}
+	.e7_img {overflow:hidden; clear:both; padding: 20px 0;}
+	.e7_img img {margin-bottom: 1%;}
+	.e7_img img:nth-child(8n) {margin-bottom: 0;}
+	.vetinam_project_title2 {padding: 20px 0; font-size: 16px; font-weight: bold;font-family: 'NotoSansKR-Medium';}
+	.certificate_img {overflow:hidden; clear:both; padding: 3%; background:#f5f5f5;}
+	.certificate_img img {margin-bottom: 3%;}
+	.certificate_img img:nth-child(4n) {margin-bottom: 0;}
+	.certificate2_img {overflow:hidden; clear:both; padding: 3%; background:#f5f5f5;}
+	.certificate2_img img {margin-bottom: 3%;}
+	.certificate2_img img:nth-child(3n) {margin-bottom: 0;}
+
+	/*į�����*/
+
+	.click3img {display:none; font-size:15px; margin-bottom:20px;}
+	#Cambodia_img {display: none;}
+	.vetinam_project_title2 {padding: 20px 0; font-size: 16px; font-weight: bold;font-family: 'NotoSansKR-Medium';}
+	.Cambodia_title {padding-top: 15px; font-size: 15px;}
+	.Cambodia_imgbox img:nth-child(2n) {margin-bottom:1%;}
+
+	.Cambodia_imgbox img {width: 100%; margin-bottom:1%;}
+	.Cambodia_imgbox .odd {}
+
+	#Cambodia_img {width:100%;}
+	#list_icon {width: 8px; height: 8px; background:#000; border-radius: 50%; display:inline-block; vertical-align: middle; margin-right:1%;}
+	.project01 {font-size: 16px; padding-bottom: 10px;font-weight:500;}
+	.project1_boximg {overflow:hidden; clear:both; font-size:15px;}
+	.project1_boximg1 {float:left; width: 49%; margin-right:2%; border: 1px solid #ddd;}
+	.project1_title {height:30%;  background:#36528a; box-sizing: border-box; padding:10px; color:#fff;}
+	.project1_title_en {height:70%; padding-top:10%;box-sizing: border-box; padding:10px; }
+	.project1_boximg2 {float:left; width: 49%; margin-right:0%; margin-bottom:2%;border: 1px solid #ddd;}
+	.project1_boximg3 {float:left; width: 49%; margin-right:2%; border: 1px solid #ddd;}
+	.project1_boximg4 {float:left; width: 49%; margin-right:0; border: 1px solid #ddd;}
+	.project02 {font-size: 16px; padding: 20px 0 10px 0;font-weight:500;}
+	.project02_explain {padding-bottom:10px; font-size:15px;}
+	.project02_title {padding-bottom:20px;}
+	/*GVEC �ѱ��� ���� table*/
+	.table_korea1 table {border-collapse: collapse; width: 100%; font-size:14px;}
+	.table_korea1 th {background:#f5f5f5; border: 1px solid #999;text-align: left;padding: 10px;}
+	.table_korea1 td { border: 1px solid #999; text-align: left; padding: 5px; vertical-align:middle; text-align:left;}
+	.table_explan {padding-top:10px; color:#444;}
+	/**/
+	.project02_title2 {padding:20px 0 20px 0;}
+	.project03_title1 {padding-bottom:10px;}
+	.project03_title2 {padding: 20px 0 10px 0;}
+	.project03_explan {padding-top:30px; color:#444; padding-bottom:10px;}
+	.kcontent {overflow:hidden; clear:both; padding-top:20px;}
+	.kcontent1 {width: 100%; border: 1px solid #ddd; margin-bottom:2%; }
+	.kcontent img {width:100%;}
+	.kcontent1_box {overflow:hidden; clear:both; box-sizing: border-box; padding:15px; }
+	.kcontent1_box1 {float:left; width: 49%; margin-right:2%; border: 1px solid #ddd; }
+	.kcontent1_box2 {float:left; width: 49%; margin-right:0; border: 1px solid #ddd; }
+	.kcontent_title {padding-bottom:15px; text-align:center;}
+	.kcontent2 {width: 100%; border: 1px solid #ddd; margin-bottom:2%; }
+	.kcontent3 {width: 100%; border: 1px solid #ddd; }
+	.kboard {overflow:hidden; clear:both; margin-top:20px;}
+	.kboard img {width:100%;}
+	.kboard_box1 {float:left; width: 49%; margin-right:2%; border: 1px solid #ddd; }
+	.kboard_box2 {float:left; width: 49%; margin-bottom:2%; border: 1px solid #ddd; }
+	.kboard_box3 {float:left; width: 49%; margin-right:2%; border: 1px solid #ddd; }
+	.kboard_box4 {float:left; width: 49%; margin-bottom:2%; border: 1px solid #ddd; }
+	.kboard_box5 {float:left; width: 49%; margin-right:2%; border: 1px solid #ddd; }
+	.kboard_box6 {float:left; width: 49%; border: 1px solid #ddd; }
+
+	/*introduce*/
+	.intro_box {padding: 20px 0 40px 0;}
+	.intro_box img {width:100%;}
+	.introduce {margin: 0 auto; text-align:Center; padding-bottom:20px; font-size: 18px;font-weight: bold;font-family: 'NotoSansKR-Medium'; color:#444;}
+	.intro1 {color:#257bad; font-size: 14px; font-family: 'NotoSansKR-Medium'; margin-bottom:20px;}
+	.intro2_title {font-size: 15px; font-family: 'NotoSansKR-Medium'; margin-bottom:10px;}
+	.intro2_introduce {font-size: 14px;color:#444; font-family: 'NotoSansKR-Medium';}
+	.ready {text-align:center; padding: 150px 0; color:#444; font-size: 14px;}
+
+	/*scroll_btn*/
+	#scroll_btn {position: fixed; bottom: 5px; right: 5px;}
+	#scroll_btn img {width: 30px;}
+	#tp_br {display: none;}
+	
+}
+/*------  Mobile(end)  ----*/
+
+/*+++++++++++++++++++++++++++++++*/
+/*-------   Tablet(start)   -----*/
+@media screen and (min-width: 768px) and (max-width: 1024px) { 
+
+	/*-------------------------- Main _ Visual ---------------------------*/
+	.main_viusal {width: 100%;}	
+	.wraper {width: 100%; height:100%;}
+	.main_banner {width: 100%; height: 200px; position: relative; background:url("../images/introduce_banner.png"); margin-top:70px; background-size: cover; background-position: center center;}
+	.main_banner .title {position: absolute; top:50%; left: 50%; transform: translate(-50%,-50%); }
+	.main_banner .title .title_iner {color:#fff; font-size: 24px; font-weight: bold;font-family: 'NotoSansKR-Medium';}
+	.main_banner .title .title1_en {color:#fff; font-size: 20px;}
+
+	/**/
+	/*click*/
+	.click1img img {width:100%;}
+	.click2img img {width:100%;}
+	.click3img img {width:100%;}
+	.click {position: relative; width: 100%; border-bottom: 1px solid #ddd;}
+	.click2 {float: left; width: 50%; padding: 15px 0;color: #fff; background: #36528a; border-left: 1px solid #ddd; border-right: 1px solid #ddd; text-align: center;font-size: 16px;}
+	.click3 {float: left; width: 50%; padding: 15px 0;border-left: 1px solid #ddd;  text-align: center;  font-size: 16px;background:#fff; border-right: 1px solid #ddd;}
+
+	/*�������簳��*/
+	.click1img { display:none;font-size:18px;}
+	.project1 {width:100%; clear:both; overflow:hidden;}
+	.project_title {padding: 40px 0 20px 0; font-size: 18px; font-weight: bold;font-family: 'NotoSansKR-Medium';}
+	#check_icon {padding-right:10px;}
+	#check_icon img {width:29px;}
+	.project_title_in {width: 100%;}
+	#project_core {font-size: 16px; margin-bottom:10px;}
+	#project_core > span {color:#b81314; font-weight: bold;font-family: 'NotoSansKR-Medium';}
+	#project_core1 {display: inline-block; font-weight: bold;font-family: 'NotoSansKR-Medium'; font-size: 16px; background-color:#ffff00; padding: 5px 10px;}
+	#project_core1_title {margin-top:5px; font-size:15px;}
+	.project1 .project_map {width:100%; margin-top:30px; text-align:center;}
+	.project1 .project_map img {width:60%;}
+	#project_map2 {width:100%; margin-bottom:40px;}
+	.project_title2 {padding: 40px 0 20px 0; font-size: 18px; font-weight: bold;font-family: 'NotoSansKR-Medium';}
+	.pc_br {display:none;}
+
+	/*��Ʈ��*/
+	.click2img { font-size:16px; margin-bottom:40px;}
+	.vetinam_project_title {padding: 40px 0 20px 0; font-size: 16px; font-weight: bold;font-family: 'NotoSansKR-Medium';}
+	.vetinam_project_box1 {clear:both; overflow:hidden; margin-top:20px;}
+	.vetinam_project_box1 .vetinam_project_box1_introduce {float:left; width: 60%; font-size:15px; margin-right:5%;}
+	.reiwa_title {font-weight:900; font-size: 16px;}
+	.reiwa_title span {margin-right:10px;}
+	.name { ont-size: 15px; text-align:Center; margin-top:10px;}
+	.name span {margin-right:10px;}
+	#reiwa_logo {vertical-align:middle; width:70px;}
+	#normal {font-weight:500;}
+	.vetinam_project_box1 .vetinam_project_box1_img {float:left; width:35%; }
+	#reiwa_img {width:100%;}
+	.pc_sign {display:none;}
+
+	.vetinam_project_title2 {padding: 40px 0 20px 0; font-size: 16px; font-weight: bold;font-family: 'NotoSansKR-Medium';}
+	.people {font-size:15px; margin-bottom:20px;}
+	#red_bolder {color:red;}
+	.head_office {color:#767676;}
+	.office {color:#767676;}
+	.office_img {overflow:hidden; clear:both; padding: 30px 0 20px 0;}
+	.office_img img {float:left; width: 32.6%; margin-right:1%;}
+	.office_img img:nth-child(3n) {float:left; width: 32.6%; margin-right:0;}
+	.office_name {font-size:16px; text-align:Center; font-weight:500;}
+	.education_img {overflow:hidden; clear:both; padding: 20px 0;}
+	.education_img img {float:left; width: 32.6%; margin-right:1%;}
+	.education_img img:nth-child(3n) {float:left; width: 32.6%; margin-right:0;}
+	.education_name {font-size:16px; text-align:Center; font-weight:500; margin-bottom:20px;}
+	#round_list {display: inline-block; width:6px; height:6px; background:#000; border-radius:50%; margin-right:5px; vertical-align:middle;}
+	.e7 {font-size:15px;}
+	.e7_img {overflow:hidden; clear:both; padding: 20px 0;}
+	.e7_img img {float:left; width: 24.25%; margin-right:1%;}
+	.e7_img img:nth-child(4n) {float:left; width: 24.25%; margin-right:0; margin-bottom:1%;}
+	.e7_img img:nth-child(8n) {float:left; width: 24.25%; margin-right:0;}
+	.vetinam_project_title2 {padding: 40px 0 20px 0; font-size: 16px; font-weight: bold;font-family: 'NotoSansKR-Medium';}
+	.certificate_img {overflow:hidden; clear:both; padding: 20px; background:#f5f5f5;}
+	.certificate_img img {float:left; width: 24.25%; margin-right:1%;}
+	.certificate_img img:nth-child(4n) {float:left; width: 24.25%; margin-right:0;}
+	.certificate2_img {overflow:hidden; clear:both; padding: 20px; background:#f5f5f5;}
+	.certificate2_img img {float:left; width: 32.6%; margin-right:1%;}
+	.certificate2_img img:nth-child(3n) {float:left; width: 32.6%; margin-right:0;}
+
+	/*į�����*/
+	.click3img {display:none;font-size:15px; margin-bottom:40px;}
+	.Cambodia_img_moblie {display: none;}
+	.vetinam_project_title2 {padding: 40px 0 20px 0; font-size: 18px; font-weight: bold;font-family: 'NotoSansKR-Medium';}
+	.Cambodia_title {padding-top: 30px; font-size: 16px;}
+	.Cambodia_imgbox {overflow:hidden; clear:both;}
+	.Cambodia_imgbox img {float:left; width: 33%; margin-right: 0.5%; margin-bottom: 0.5%;}
+	.Cambodia_imgbox .odd {margin-right:0;}
+
+	#Cambodia_img {width:100%;}
+	#list_icon {width: 8px; height: 8px; background:#000; border-radius: 50%; display:inline-block; vertical-align: middle; margin-right:1%;}
+	.project01 {font-size: 18px; padding-bottom: 20px;font-weight:500;}
+	.project1_boximg {overflow:hidden; clear:both; font-size:15px;}
+	.project1_boximg1 {float:left; width: 23.5%; margin-right:2%; border: 1px solid #ddd;}
+	.project1_title {height:30%;  background:#36528a; box-sizing: border-box; padding:10px; color:#fff;}
+	.project1_title_en {height:70%; padding-top:10%;box-sizing: border-box; padding:10px; }
+	.project1_boximg2 {float:left; width: 23.5%; margin-right:2%; border: 1px solid #ddd;}
+	.project1_boximg3 {float:left; width: 23.5%; margin-right:2%; border: 1px solid #ddd;}
+	.project1_boximg4 {float:left; width: 23.5%; margin-right:0; border: 1px solid #ddd;}
+	.project02 {font-size: 18px; padding: 40px 0 30px 0;font-weight:500;}
+	.project02_explain {padding-bottom:10px; font-size:15px;}
+	.project02_title {padding-bottom:20px;}
+	/*GVEC �ѱ��� ���� table*/
+	.table_korea1 table {border-collapse: collapse; width: 100%;}
+	.table_korea1 th {background:#f5f5f5; border: 1px solid #999;text-align: left;padding: 10px;}
+	.table_korea1 td { border: 1px solid #999; text-align: left; padding: 5px; vertical-align:middle; text-align:left;}
+	.table_explan {padding-top:10px; color:#444;}
+	/**/
+	.project02_title2 {padding:30px 0 20px 0;}
+	.project03_title1 {padding-bottom:10px;}
+	.project03_title2 {padding: 30px 0 10px 0;}
+	.project03_explan {padding-top:30px; color:#444; padding-bottom:10px;}
+	.kcontent {overflow:hidden; clear:both; padding-top:20px;}
+	.kcontent1 {float:left; width: 32%; margin-right:2%;border: 1px solid #ddd; }
+	.kcontent img {width:100%;}
+	.kcontent1_box {overflow:hidden; clear:both; box-sizing: border-box; padding:15px; }
+	.kcontent1_box1 {float:left; width: 49%; margin-right:2%; border: 1px solid #ddd; }
+	.kcontent1_box2 {float:left; width: 49%; margin-right:0; border: 1px solid #ddd; }
+	.kcontent_title {padding-bottom:15px; text-align:center;}
+	.kcontent2 {float:left; width: 32%; margin-right:2%; border: 1px solid #ddd;}
+	.kcontent3 {float:left; width: 32%; margin-right:0; border: 1px solid #ddd;}
+	.kboard {overflow:hidden; clear:both; margin-top:20px;}
+	.kboard img {width:100%;}
+	.kboard_box1 {float:left; width: 15.83%; margin-right:1%; border: 1px solid #ddd; }
+	.kboard_box2 {float:left; width: 15.83%; margin-right:1%; border: 1px solid #ddd; }
+	.kboard_box3 {float:left; width: 15.83%; margin-right:1%; border: 1px solid #ddd; }
+	.kboard_box4 {float:left; width: 15.83%; margin-right:1%; border: 1px solid #ddd; }
+	.kboard_box5 {float:left; width: 15.83%; margin-right:1%; border: 1px solid #ddd; }
+	.kboard_box6 {float:left; width: 15.83%; margin-right:0; border: 1px solid #ddd; }
+
+	/*introduce*/
+	.intro_box {padding: 40px 0 80px 0;}
+	.intro_box img {width:100%;}
+	.introduce {margin: 0 auto; text-align:Center; padding-bottom:40px; font-size: 20px;font-weight: bold;font-family: 'NotoSansKR-Medium'; color:#444;}
+	.intro1 {color:#257bad; font-size: 16px; font-family: 'NotoSansKR-Medium'; margin-bottom:20px;}
+	.intro2_title {font-size: 15px; font-family: 'NotoSansKR-Medium'; margin-bottom:10px;}
+	.intro2_introduce {font-size: 15px;color:#444; font-family: 'NotoSansKR-Medium';}
+	.ready {text-align:center; padding: 100px 0; color:#444; font-size: 16px;}
+    
+	/*scroll_btn*/
+	#scroll_btn {position: fixed; bottom: 5px; right: 5px;}
+	#scroll_btn img {width: 35px;}
+	#m_br {display: none;}
+	.introduce_m {display: none;}
+	.title_en2m {display: none;}
+}
+/*---------   Tablet(end)   ----*/
+
+/*++++++++++++++++++++++++++++++++*/
+/*-------   Desktop(start)   -----*/
+@media screen and (min-width: 1025px) {
+	
+		
+	.inners_wrap {width: 100%; max-width: 1410px; margin: 0 auto; padding: 0 70px;}
+	.inner_wraps {width: 100%; max-width: 1410px; margin: 0 auto; }
+	/*-------------------------- Main _ Visual ---------------------------*/
+	.main_viusal {width: 100%;}
+	.wraper {width: 100%; height:100%;}
+	.main_banner {width: 100%; height: 300px; position: relative; background:url("../images/introduce_banner.png"); margin-top:100px; background-size: cover; background-position: center center;}
+	.main_banner .title {position: absolute; top:50%; left: 50%; transform: translate(-50%,-50%); }
+	.main_banner .title .title_iner {color:#fff; font-size: 34px; font-weight: bold;font-family: 'NotoSansKR-Medium';}
+	.main_banner .title .title1_en {color:#fff; font-size: 20px;}
+	
+	
+	.line {width:100%; height:1px; background:#ddd; }
+	/*click*/
+	.click {position: relative; width: 100%; }
+	
+	.click2 {float: left; width: 50%; padding: 20px 0;color: #fff; background: #36528a; border-left: 1px solid #ddd; border-right: 1px solid #ddd; text-align: center; font-size: 18px;}
+	/*.click2 {float: left; width: 33.3%; padding: 20px 0;text-align: center; font-size: 18px;background:#fff;}*/
+	.click3 {float: left; width: 50%; padding: 20px 0;border-left: 1px solid #ddd;  text-align: center; font-size: 18px;background:#fff; border-right: 1px solid #ddd;}
+
+	/*�������簳��*/
+	.click1img { display:none;font-size:18px;}
+	.project1 {width:100%; clear:both; overflow:hidden;}
+	.project_title {padding: 80px 0 40px 0; font-size: 22px; font-weight: bold;font-family: 'NotoSansKR-Medium';}
+	#check_icon {padding-right:10px;}
+	#check_icon img {width:35px;}
+	.project_title_in {float:left; width: 50%; margin-right:10%;}
+	#project_core {font-size: 20px; margin-bottom:10px;}
+	#project_core > span {color:#b81314; font-weight: bold;font-family: 'NotoSansKR-Medium';}
+	#project_core1 {display: inline-block; font-weight: bold;font-family: 'NotoSansKR-Medium'; font-size: 20px; background-color:#ffff00; padding: 5px 10px;}
+	#project_core1_title {margin-top:5px; font-size:17px;}
+	.project1 .project_map {float:left; width: 40%; }
+	.project1 .project_map img {width:100%;}
+	#project_map2 {width:100%; margin-bottom:80px;}
+	.project_title2 {padding: 80px 0 20px 0; font-size: 22px; font-weight: bold;font-family: 'NotoSansKR-Medium';}
+
+	/*��Ʈ��*/
+	.click2img {text-align:left; font-size:18px; margin-bottom:80px;}
+	.vetinam_project_title {padding: 80px 0 40px 0; font-size: 22px; font-weight: bold;font-family: 'NotoSansKR-Medium';}
+	.vetinam_project_box1 {clear:both; overflow:hidden; margin-top:20px;}
+	.vetinam_project_box1 .vetinam_project_box1_introduce {float:left; width: 70%; font-size:18px; margin-right:5%;}
+	.reiwa_title {font-weight:900; font-size: 20px;}
+	.reiwa_title span {margin-right:10px;}
+	.name { float:right;}
+	.name span {margin-right:10px;}
+	#reiwa_logo {vertical-align:middle; width:90px;}
+	#normal {font-weight:500;}
+	.vetinam_project_box1 .vetinam_project_box1_img {float:left; width:25%; background: #000;}
+	#reiwa_img {width:100%;}
+	.tm_sign {display:none;}
+
+	.vetinam_project_title2 {padding: 60px 0 40px 0; font-size: 22px; font-weight: bold;font-family: 'NotoSansKR-Medium';}
+	.people {font-size:18px; margin-bottom:20px;}
+	#red_bolder {color:red;}
+	.head_office {color:#767676;}
+	.office {color:#767676;}
+	.office_img {overflow:hidden; clear:both; padding: 30px 0 20px 0;}
+	.office_img img {float:left; width: 32.6%; margin-right:1%;}
+	.office_img img:nth-child(3n) {float:left; width: 32.6%; margin-right:0;}
+	.office_name {font-size:18px; text-align:Center; font-weight:500;}
+	.education_img {overflow:hidden; clear:both; padding: 20px 0;}
+	.education_img img {float:left; width: 32.6%; margin-right:1%;}
+	.education_img img:nth-child(3n) {float:left; width: 32.6%; margin-right:0;}
+	.education_name {font-size:18px; text-align:Center; font-weight:500; margin-bottom:30px;}
+	#round_list {display: inline-block; width:8px; height:8px; background:#000; border-radius:50%; margin-right:15px; vertical-align:middle;}
+	.e7_img {overflow:hidden; clear:both; padding: 20px 0;}
+	.e7_img img {float:left; width: 24.25%; margin-right:1%;}
+	.e7_img img:nth-child(4n) {float:left; width: 24.25%; margin-right:0; margin-bottom:1%;}
+	.e7_img img:nth-child(8n) {float:left; width: 24.25%; margin-right:0;}
+	.vetinam_project_title2 {padding: 60px 0 40px 0; font-size: 22px; font-weight: bold;font-family: 'NotoSansKR-Medium';}
+	.certificate_img {overflow:hidden; clear:both; padding: 20px; background:#f5f5f5;}
+	.certificate_img img {float:left; width: 24.25%; margin-right:1%;}
+	.certificate_img img:nth-child(4n) {float:left; width: 24.25%; margin-right:0;}
+	.certificate2_img {overflow:hidden; clear:both; padding: 20px; background:#f5f5f5;}
+	.certificate2_img img {float:left; width: 32.6%; margin-right:1%;}
+	.certificate2_img img:nth-child(3n) {float:left; width: 32.6%; margin-right:0;}
+
+	/*į�����*/
+	.click3img {display:none;font-size:18px; padding-bottom:80px;}
+	.vetinam_project_title2 {padding: 80px 0 40px 0; font-size: 22px; font-weight: bold;font-family: 'NotoSansKR-Medium';}
+	#Cambodia_img {width:100%;}
+	.Cambodia_imgbox {overflow:hidden; clear:both;}
+	.Cambodia_imgbox img {float:left; width: 33%; margin-right: 0.5%; margin-bottom: 0.5%;}
+	.Cambodia_imgbox .odd {margin-right:0;}
+	.Cambodia_img_moblie {display:none;}
+	.Cambodia_title {padding: 30px 0 10px 0; font-size: 18px; font-weight:500;}
+	#list_icon {width: 8px; height: 8px; background:#000; border-radius: 50%; display:inline-block; vertical-align: middle; margin-right:1%;}
+	.project01 {font-size: 22px; padding-bottom: 30px;font-weight: bold;font-family: 'NotoSansKR-Medium';}
+	.project1_boximg {overflow:hidden; clear:both;}
+	.project1_boximg1 {float:left; width: 23.5%; margin-right:2%; border: 1px solid #ddd;}
+	.project1_title {height:30%;  background:#36528a; box-sizing: border-box; padding:15px; color:#fff;}
+	.project1_title_en {height:70%; padding-top:10%;box-sizing: border-box; padding:15px; }
+	.project1_boximg2 {float:left; width: 23.5%; margin-right:2%; border: 1px solid #ddd;}
+	.project1_boximg3 {float:left; width: 23.5%; margin-right:2%; border: 1px solid #ddd;}
+	.project1_boximg4 {float:left; width: 23.5%; margin-right:0; border: 1px solid #ddd;}
+	.project02 {font-size: 22px; padding: 60px 0 30px 0;font-weight: bold;font-family: 'NotoSansKR-Medium';}
+	.project02_explain {padding-bottom:10px;}
+	.project02_title {padding-bottom:20px;}
+	/*GVEC �ѱ��� ���� table*/
+	.table_korea1 table {border-collapse: collapse; width: 100%;}
+	.table_korea1 th {background:#f5f5f5; border: 1px solid #999;text-align: left;padding: 10px;}
+	.table_korea1 td { border: 1px solid #999; text-align: left; padding: 10px; vertical-align:middle; text-align:left;}
+	.table_explan {padding-top:10px; color:#444;}
+	/**/
+	.project02_title2 {padding:30px 0 20px 0;}
+	.project03_title1 {padding-bottom:10px;}
+	.project03_title2 {padding: 30px 0 10px 0;}
+	.project03_explan {padding-top:30px; color:#444; padding-bottom:10px;}
+	.kcontent {overflow:hidden; clear:both; padding-top:20px;}
+	.kcontent1 {float:left; width: 32%; margin-right:2%;border: 1px solid #ddd; }
+	.kcontent img {width:100%;}
+	.kcontent1_box {overflow:hidden; clear:both; box-sizing: border-box; padding:15px; }
+	.kcontent1_box1 {float:left; width: 49%; margin-right:2%; border: 1px solid #ddd; }
+	.kcontent1_box2 {float:left; width: 49%; margin-right:0; border: 1px solid #ddd; }
+	.kcontent_title {padding-bottom:15px; text-align:center;}
+	.kcontent2 {float:left; width: 32%; margin-right:2%; border: 1px solid #ddd;}
+	.kcontent3 {float:left; width: 32%; margin-right:0; border: 1px solid #ddd;}
+	.kboard {overflow:hidden; clear:both; margin-top:20px;}
+	.kboard img {width:100%;}
+	.kboard_box1 {float:left; width: 15.83%; margin-right:1%; border: 1px solid #ddd; }
+	.kboard_box2 {float:left; width: 15.83%; margin-right:1%; border: 1px solid #ddd; }
+	.kboard_box3 {float:left; width: 15.83%; margin-right:1%; border: 1px solid #ddd; }
+	.kboard_box4 {float:left; width: 15.83%; margin-right:1%; border: 1px solid #ddd; }
+	.kboard_box5 {float:left; width: 15.83%; margin-right:1%; border: 1px solid #ddd; }
+	.kboard_box6 {float:left; width: 15.83%; margin-right:0; border: 1px solid #ddd; }
+	/*introduce*/
+	.intro_box {padding: 80px 0 0 0;}
+
+	.introduce {margin: 0 auto; text-align:Center; padding-bottom:80px; font-size: 32px;font-weight: bold;font-family: 'NotoSansKR-Medium'; color:#444;}
+	.ready {text-align:center; padding: 150px 0 230px 0; color:#444; font-size: 18px;}
+	/*scroll_btn*/
+	#scroll_btn {position: fixed; bottom: 5px; right: 5px;}
+	#scroll_btn img {width: 40px;}
+	#m_br {display: none;}
+	.introduce_m {display: none;}
+	.title_en2m {display: none;}
+}
+/*--------   Desktop(end)   -----*/
